@@ -1,51 +1,158 @@
-/*
-Error: File to import not found or unreadable: palettes/molly/syzygy.
-       Load path: /Users/eherrero/development/capture
-        on line 1 of molly.scss
+* {
+  margin: 0;
+  padding: 0; }
 
-1: @import 'palettes/molly/syzygy';
-2: @import 'palettes/var-lib';
-3: @import 'molly-template';
+.template {
+  position: relative;
+  width: 300px;
+  height: 320px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #CCFCA8; }
 
-Backtrace:
-molly.scss:1
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/bin/sass:23:in `load'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/bin/sass:23:in `<main>'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
-/Users/eherrero/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: palettes/molly/syzygy.\A        Load path: /Users/eherrero/development/capture\A         on line 1 of molly.scss\A \A 1: @import 'palettes/molly/syzygy';\A 2: @import 'palettes/var-lib';\A 3: @import 'molly-template';"; }
+.body {
+  width: 80%;
+  height: 100%;
+  margin: auto auto;
+  background: white;
+  z-index: -1; }
+
+nav {
+  height: 24px;
+  position: relative;
+  background: #FFF; }
+
+.logo {
+  position: relative;
+  top: 5px;
+  left: 12px;
+  height: 14px;
+  color: #868686;
+  width: 50px;
+  font: 600 10px/14px sans-serif;
+  text-transform: uppercase; }
+
+ul {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  list-style: none; }
+
+li {
+  display: inline;
+  height: 7px;
+  width: 18px;
+  background: #666666;
+  float: right;
+  margin-left: 6px; }
+
+.search {
+  margin: auto;
+  width: 85%;
+  padding: 20px 10px;
+  background: url("img/picture.png") center/20% no-repeat #eaeaea;
+  border-radius: 4px; }
+
+.search h1 {
+  height: 10px;
+  width: 80px;
+  background: #FFF;
+  margin-bottom: 4px; }
+
+.search-container {
+  position: relative;
+  height: 65px;
+  width: 90px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #dfdfdf;
+  border-radius: 4px; }
+
+.action {
+  width: 40px;
+  height: 15px;
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  background: #0DAC02;
+  border-radius: 2px; }
+
+.user-content {
+  font-size: 0;
+  position: relative; }
+
+.user-content .body-content,
+.user-content .sidebar {
+  display: inline-block;
+  height: 116px;
+  position: absolute;
+  top: 0;
+  background: white; }
+
+.user-content .body-content {
+  width: 65%;
+  left: 0; }
+
+.user-content .sidebar {
+  width: 35%;
+  right: 0; }
+
+.body-content h1 {
+  position: relative;
+  left: 10px;
+  margin: 10px 0;
+  background: #38424E;
+  display: block;
+  height: 10px;
+  width: 60px; }
+
+.body-content .paragraphs {
+  position: relative;
+  left: 10px;
+  width: 88%; }
+
+.body-content p {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: #ddd;
+  height: 5px; }
+
+.body-content .a {
+  background: #097a01; }
+
+.body-content p:nth-child(odd) {
+  width: 20px; }
+
+.body-content p:nth-child(even) {
+  width: 30px; }
+
+.body-content p:nth-child(4n+1) {
+  width: 14px; }
+
+.body-content p:nth-child(8n+4) {
+  width: 18px; }
+
+.sidebar {
+  padding-top: 10px; }
+
+.sidebar section:not(:first-child) {
+  margin-top: 5px;
+  border-top: 1px solid #eee;
+  padding-top: 5px; }
+
+.sidebar h1 {
+  margin-bottom: 8px;
+  height: 8px;
+  width: 40px;
+  background: #38424E; }
+
+.sidebar p {
+  background: #097a01;
+  height: 5px;
+  width: 35%;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 10px; }
+
+/*# sourceMappingURL=molly.css.map */
