@@ -1,0 +1,27 @@
+@import 'color-library';
+
+$accent: darken($blue, 30);
+$muted-accent: $mute-blue;
+$action: $green;
+
+$navigation-background-color: darken(white, 4);
+$navigation-background-opacity: .9;
+$navigation-link-color: darken($blue, 30);
+
+$landscapeSearch-searchBackground-opacity: .9; 
+
+$property-contactUsBackground-color: darken($blue, 10);
+
+$property-newSearchBackground-color: darken($green, 10);
+
+$primaryFooter-background-color: darken($white, 2);
+$primaryFooter-link-color: $mute-blue;
+$primaryFooter-topBorder-color: darken($white, 10); 
+
+$secondaryFooter-background-color: darken($blue, 30);
+$secondaryFooter-topBorder-color: darken($white, 10);
+$secondaryFooter-text-color: $white;
+$secondaryFooter-link-color: $white;
+$secondaryFooter-linkHover-color: $blue; 
+
+@import 'var-lib';

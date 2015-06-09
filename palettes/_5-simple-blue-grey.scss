@@ -1,0 +1,24 @@
+@import 'color-library';
+
+$accent: darken($blue, 10);
+$muted-accent: $mute-blue;
+$action: $green;
+
+$navigation-background-opacity: 1;
+$navigation-icon-color: $muted-accent;
+$navigation-iconHover-color: $accent;
+
+$landscapeSearch-searchBackground-opacity: 1;
+
+$property-contactUsBackground-color: $orange;
+
+$primaryFooter-background-color: darken($white, 3);
+$primaryFooter-link-color: $accent;
+$primaryFooter-topBorder-color: darken($white, 10);
+
+$secondaryFooter-background-color: $white;
+$secondaryFooter-topBorder-color: darken($white, 10);
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: darken($blue, 30);
+$secondaryFooter-linkHover-color: $blue;
+

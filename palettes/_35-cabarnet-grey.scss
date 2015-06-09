@@ -1,0 +1,14 @@
+@import 'color-library';
+
+$accent: #572648;
+
+$navigation-link-color: $accent;
+
+$landscapeSearch-searchButtonBackground-color: #265735;
+$landscapeSearch-advancedSearchLink-color: $accent;
+
+$secondaryFooter-background-color: #D3DADE;
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $accent;
+
+@import 'var-lib';

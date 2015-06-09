@@ -1,0 +1,18 @@
+@import 'color-library';
+
+$accent: darken($blue, 10);
+
+$navigation-link-color: darken($blue, 30);
+
+$landscapeSearch-advancedSearchLink-color: $navigation-link-color;
+
+$primaryFooter-background-color: darken($blue, 30);
+
+$secondaryFooter-background-color: darken(white, 13);
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: darken($blue, 10);
+$secondaryFooter-topBorder-color: darken($blue, 33);
+
+$rgFooter-background-color: darken(white, 10);
+$rgFooter-text-color: $black;
+

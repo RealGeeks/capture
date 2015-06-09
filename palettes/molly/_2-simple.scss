@@ -1,0 +1,11 @@
+j@import '../color-library';
+$accent: #3a6f8c;
+
+$navigation-link-color: $accent;
+$navigation-linkHover-color: lighten($accent, 10);
+
+$landscapeSearch-searchButtonBackground-color: $accent;
+
+$body-sideBackground-color: #fff;
+
+$molly-footerTopBorder-color: $mute-blue;

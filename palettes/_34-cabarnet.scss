@@ -1,0 +1,13 @@
+@import 'color-library';
+
+$accent: #572648;
+
+$navigation-link-color: $accent;
+
+$landscapeSearch-advancedSearchLink-color: $accent;
+
+$secondaryFooter-background-color: $accent;
+$secondaryFooter-text-color: $white;
+$secondaryFooter-link-color: $white;
+
+@import 'var-lib';

@@ -1,0 +1,16 @@
+@import 'color-library';
+
+$accent: #EC8600;
+$muted-accent: #5f5f5f;
+
+$navigation-link-color: darken($accent, 10);
+$landscapeSearch-searchButtonBackground-color: darken($accent, 10);
+
+$searchResults-subBarCallToActionLink-color: darken($blue, 10);
+$searchResults-informationLink-color: darken($blue, 10);
+
+$secondaryFooter-background-color: white;
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $accent;
+
+@import 'var-lib';

@@ -1,0 +1,16 @@
+@import 'color-library';
+
+$navigation-background-color: black;
+$navigation-background-opacity: .8;
+$navigation-link-color: white; 
+
+$navigation-pupUpBackground-color: white;
+$navigation-popUpNavigationLink-color: $mute-blue;
+
+$landscapeSearch-searchBackground-color: #111;
+$landscapeSearch-searchBackground-opacity: .8;
+$landscapeSearch-label-color: white;
+$landscapeSearch-advancedSearchLink-color: white;
+@import 'var-lib';
+
+

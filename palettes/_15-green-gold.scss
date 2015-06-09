@@ -1,0 +1,27 @@
+@import 'color-library';
+
+$accent: #29652F;
+
+$body-sideBackground-color: $accent;
+
+$navigation-link-color: $accent;
+
+$landscapeSearch-searchButtonBackground-color: #A6832C;
+$landscapeSearch-advancedSearchLink-color: $new-green;
+$landscapeSearch-advancedSearchLinkHover-color: darken($new-green, 10);
+
+$bodyContent-header-color: $accent;
+$bodyContent-link-color: darken(#A6832C, 10);
+
+$searchResults-subBarCallToActionLink-color: $blue-with-green;
+
+$searchResults-propertyLink-color: $bodyContent-link-color;
+
+$searchResults-informationLink-color: $blue-with-green;
+
+$primaryFooter-background-color: $new-green;
+
+$secondaryFooter-background-color: darken(white, 10);
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $new-green;
+

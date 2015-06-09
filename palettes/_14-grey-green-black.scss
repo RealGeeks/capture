@@ -1,0 +1,26 @@
+@import 'color-library';
+
+$accent: $new-green;
+
+$navigation-background-color: darken(white, 4);
+
+$navigation-link-color: $new-green;
+
+$landscapeSearch-searchButtonBackground-color: $green;
+$landscapeSearch-advancedSearchLink-color: $new-green;
+$landscapeSearch-advancedSearchLinkHover-color: darken($new-green, 10);
+
+$searchResults-subBarCallToActionLink-color: $blue-with-green;
+
+$searchResults-informationLink-color: $blue-with-green;
+
+$primaryFooter-background-color: $new-green; 
+
+$secondaryFooter-background-color: #333;
+$secondaryFooter-text-color: $white;
+$secondaryFooter-link-color: darken(white, 45);
+
+$rgFooter-background-color: darken(white, 30);
+$rgFooter-text-color: $black;
+
+@import 'var-lib';

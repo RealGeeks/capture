@@ -1,0 +1,19 @@
+@import 'color-library';
+
+$accent: darken($blue, 10);
+
+$primaryFooter-background-color: $blue;
+
+$secondaryFooter-background-color: white;
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: darken($blue, 10);
+$secondaryFooter-topBorder-color: darken($blue, 3);
+
+$rgFooter-background-color: darken(white, 10);
+$rgFooter-text-color: $black;
+
+$secondaryFooter-divider-color: $secondaryFooter-background-color;
+$body-sideBackground-color: $accent;
+$molly-footerTopBorder-color: darken($accent, 30);
+$molly-footerSideBorder-color: darken($accent, 10);
+

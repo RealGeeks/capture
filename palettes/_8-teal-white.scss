@@ -1,0 +1,18 @@
+@import 'color-library';
+
+$accent: $matisse;
+
+$navigation-link-color: $accent;
+
+$landscapeSearch-advancedSearchLink-color: $accent;
+
+$primaryFooter-background-color: #4389A2;
+
+$secondaryFooter-background-color: white;
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $accent; 
+
+$rgFooter-background-color: darken(white, 10);
+$rgFooter-text-color: $black;
+
+@import 'var-lib';

@@ -1,0 +1,21 @@
+@import 'color-library';
+
+$accent: #EC8600;
+$muted-accent: #043E88;
+
+$landscapeSearch-searchButtonBackground-color: $accent;
+
+$bodyContent-link-color: $muted-accent;
+
+$searchResults-subBarCallToActionLink-color: $muted-accent; 
+
+$property-contactUsBackground-color: $muted-accent;
+
+$searchResults-propertyLink-color: $muted-accent;
+$searchResults-informationLink-color: $muted-accent;
+
+$secondaryFooter-background-color: white;
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $muted-accent;
+
+@import 'var-lib';

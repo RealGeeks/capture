@@ -1,0 +1,21 @@
+@import 'color-library';
+
+$accent: $new-green;
+
+$navigation-link-color: $new-green;
+
+$landscapeSearch-searchButtonBackground-color: #246C98;
+$landscapeSearch-advancedSearchLink-color: $new-green;
+$landscapeSearch-advancedSearchLinkHover-color: darken($new-green, 10);
+
+$searchResults-subBarCallToActionLink-color: $landscapeSearch-searchButtonBackground-color;
+
+$searchResults-informationLink-color: $landscapeSearch-searchButtonBackground-color;
+
+$primaryFooter-background-color: $new-green;
+
+$secondaryFooter-background-color: darken(white, 10);
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $new-green;
+
+@import 'var-lib';

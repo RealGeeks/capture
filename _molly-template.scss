@@ -1,0 +1,170 @@
+* { margin: 0; padding: 0; }
+
+body { padding: 20px; }
+
+.template {
+  position: relative;
+  width: 300px;
+  height: 320px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: $body-sideBackground-color;
+}
+
+
+.body {
+  width: 80%;
+  height: 100%;
+  margin: auto auto;
+  background: white;
+  z-index: -1;
+}
+
+nav {
+  height: 24px;
+  position: relative;
+  background: $navigation-background-color;
+}
+
+.logo {
+  position: relative;
+  top: 5px;
+  left: 12px;
+  height: 14px;
+  color: #868686;
+  width: 50px;
+  font: 600 10px/14px sans-serif;
+  text-transform: uppercase;
+}
+
+ul {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  list-style: none;
+}
+
+li {
+  display: inline;
+  height: 7px;
+  width: 18px;
+  background: $navigation-link-color;
+  float: right;
+  margin-left: 6px;
+}
+
+.search {
+  margin: auto;
+  width: 85%;
+  padding: 20px 10px;
+  background: url('img/picture.png') center/20% no-repeat #eaeaea;
+  border-radius: 4px;
+}
+
+.search h1 {
+  height: 10px;
+  width: 80px;
+  background: $landscapeSearch-header-color;
+  margin-bottom: 4px;
+}
+
+.search-container {
+  position: relative;
+  height: 65px;
+  width: 90px;
+  background: rgba(255, 255, 255, .9);
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+}
+
+.action {
+  width: 40px;
+  height: 15px;
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  background: $landscapeSearch-searchButtonBackground-color;
+  border-radius: 2px;
+}
+
+.user-content {
+  font-size: 0;
+  position: relative;
+}
+
+.user-content .body-content,
+.user-content .sidebar {
+  display: inline-block;
+  height: 116px;
+  position: absolute;
+  top: 0;
+  background: white;
+}
+
+.user-content .body-content {
+  width: 65%;
+  left: 0;
+}
+
+.user-content .sidebar {
+  width: 35%;
+  right: 0;
+}
+
+.body-content h1 {
+  position: relative;
+  left: 10px;
+  margin: 10px 0;
+  background: $bodyContent-header-color;
+  display: block;
+  height: 10px;
+  width: 60px;
+}
+
+.body-content .paragraphs {
+  position: relative;
+  left: 10px;
+  width: 88%;
+}
+
+.body-content p {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: #ddd;
+  height: 5px;
+}
+
+.body-content .a { background: $bodyContent-link-color; }
+
+.body-content p:nth-child(odd) { width: 20px; }
+.body-content p:nth-child(even) { width: 30px; }
+.body-content p:nth-child(4n+1) { width: 14px; }
+.body-content p:nth-child(8n+4) { width: 18px; }
+
+.sidebar {
+  padding-top: 10px;
+}
+
+.sidebar section:not(:first-child) {
+  margin-top: 5px;
+  border-top: 1px solid #eee;
+  padding-top: 5px;
+}
+
+.sidebar h1 {
+  margin-bottom: 8px;
+  height: 8px;
+  width: 40px;
+  background: $sidebarContent-header-color;
+}
+
+.sidebar p {
+  background: $sidebarContent-link-color;
+  height: 5px;
+  width: 35%;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}

@@ -1,0 +1,1 @@
+for name in $(ls palettes/*.scss | cut -f1 -d.); do sed "s/syzygy/${name}/g" miranda.scss > temp.scss; sass temp.scss miranda.css; phantomjs-2.0.0-macosx/bin/phantomjs capture.js miranda.html ${name}.png; rm temp.scss; done

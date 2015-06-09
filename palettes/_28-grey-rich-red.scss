@@ -1,0 +1,25 @@
+@import 'color-library';
+
+$accent: darken(#B40101, 10);
+$muted-accent: #666;
+
+$navigation-background-color: darken(white, 4);
+$navigation-link-color: #560003;
+
+$landscapeSearch-searchButtonBackground-color: #560003;
+$landscapeSearch-advancedSearchLink-color: darken($muted-accent, 10);
+
+$searchResults-subBarCallToActionLink-color: darken($muted-accent, 20);
+$searchResults-informationLink-color: darken($muted-accent, 20);
+
+$property-contactUsBackground-color: $orange;
+$property-mortgageCalculatorButtonBackground-color: $black;
+
+$secondaryFooter-background-color: darken(white, 8);
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $accent;
+
+$rgFooter-background-color: darken(white, 8);
+$rgFooter-text-color: $black;
+
+@import 'var-lib';

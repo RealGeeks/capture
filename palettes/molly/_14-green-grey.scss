@@ -1,0 +1,9 @@
+@import '../color-library';
+
+$accent: lighten($new-green, 10);
+$muted-accent: darken(white, 50);
+
+
+$molly-footerTopBorder-color: #f1e7bf;
+
+$body-sideBackground-color: $new-green;

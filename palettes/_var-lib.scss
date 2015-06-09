@@ -1,0 +1,185 @@
+@import 'color-library';
+
+$accent: $blue !default;
+$muted-accent: $mute-blue !default;
+$action: $green !default;
+
+
+
+//
+// Navigation
+//
+
+
+// Background
+  $navigation-background-color: $white !default;
+  $navigation-background-opacity: .96 !default;
+
+
+// Links
+  $navigation-link-color: $muted-accent !default;
+  $navigation-linkHover-color: $accent !default;
+
+  $navigation-icon-color: $navigation-link-color !default;
+  $navigation-iconHover-color: $navigation-linkHover-color !default;
+
+
+// Pop-Up (Phone, Navigation Links and Sign-in)
+  $navigation-popUpBackground-color: $navigation-background-color !default;
+  $navigation-popUpText-color: lighten(black, 10) !default; // HIDE ?
+
+  $navigation-popUpUserInnerBackground-color: darken($navigation-popUpBackground-color, 5) !default;
+
+  $navigation-popUpNavigationBackground-color: $navigation-popUpBackground-color !default;
+  $navigation-popUpNavigationLink-color: $navigation-link-color !default;
+  $navigation-popUpNavigationLinkHover-color: $navigation-linkHover-color !default;
+
+
+
+
+//
+// Hero Search
+//
+
+
+// Search Container Height
+// I commented out .smooshed. This would set the height for every search container.
+  $set-hsTall: 720px;  $set-hsShort: auto; // HIDE
+  $landscapeSearch-container-height: $set-hsTall !default;
+
+  $set-hsPT: 95px !default; // HIDE
+  @if $landscapeSearch-container-height != $set-hsTall {
+    $set-hsPT: 55px;
+  }
+
+
+// Search
+  $landscapeSearch-header-color: $white !default;
+
+  $landscapeSearch-searchBackground-color: $white !default;
+  $landscapeSearch-mobileSearchBackground-color: darken(white, 5) !default;
+  $landscapeSearch-searchBackground-opacity: .9 !default;
+
+  $landscapeSearch-label-color: $black !default;
+  $landscapeSearch-mobileLabel-color: $black !default;
+  $landscapeSearch-selectBackground-color: $white !default;
+  $landscapeSearch-selectText-color: $black !default;
+
+  $landscapeSearch-searchButtonBackground-color: $action !default;
+  $landscapeSearch-searchButtonText-color: $white !default;
+
+  $landscapeSearch-advancedSearchLink-color: $muted-accent !default;
+  $landscapeSearch-mobileAdvancedSearchLink-color: $muted-accent !default;
+  $landscapeSearch-advancedSearchLinkHover-color: $accent !default;
+  $landscapeSearch-mobileAdvancedSearchLinkHover-color: $accent !default;
+
+
+
+
+//
+// Body Content
+//
+
+
+// Body
+  $bodyContent-header-color: $dark-blue !default;
+  $bodyContent-paragraph-color: $black !default;
+
+  $bodyContent-link-color: $accent !default;
+  $bodyContent-linkHover-color: darken($bodyContent-link-color, 10) !default;
+
+
+// Sidebar
+  $sidebarShare-background-color: darken(white, 2) !default;
+  $sidebarShare-text-color: $black !default;
+  $sidebarShare-backgroundHover-color: darken($sidebarShare-background-color, 3) !default;
+  $sidebarShare-textHover-color: darken($sidebarShare-text-color, 3) !default;
+
+  $sidebarContent-header-color: $bodyContent-header-color !default;
+  $sidebarContent-headerBorder-color: $grey !default;
+
+  $sidebarContent-link-color: $bodyContent-link-color !default;
+  $sidebarContent-linkHover-color: $bodyContent-linkHover-color !default; // This needs to get added somewhere...
+
+
+
+
+//
+// Search Results & Properties
+
+
+// Search Results Tabs
+  $searchResults-subBarBackground-color: darken(white, 1) !default;
+
+  $searchResults-subBarSelectBackground-color: $white !default;
+  $searchResults-subBarSelectText-color: $black !default;
+
+  $searchResults-subBarCallToActionLink-color: $bodyContent-link-color !default;
+  $searchResults-subBarCallToActionLinkIcon-color: $action !default;
+
+  $searchResults-propertyLink-color: $accent !default;
+  $searchResults-propertyLinkHover-color: darken($searchResults-propertyLink-color, 10) !default;
+  $searchResults-favoritePropertyLink-color: darken(red, 20) !default;
+  $searchResults-informationLink-color: $accent !default;
+
+  $searchResults-propertyDetailNumber-color: $black !default;
+  $searchResults-propertyDetailLabel-color: darken(white, 60) !default;
+  $searchResults-propertyDetailBackground-color: $white !default;
+
+
+// Property Page
+  $property-city-color: $black !default;
+  $property-address-color: $black !default;
+
+  $property-headerDetailPrice-color: $black !default;
+  $property-headerDetailNumber-color: lighten(black, 20) !default;
+  $property-headerDetailLabel-color: lighten(black, 40) !default;
+
+  $property-newSearchBackground-color: $accent !default;
+
+  $property-detailLabel-color: $black !default;
+  $property-detailNumber-color: $black !default;
+
+  $property-slideshowButtonBackground-color: white !default;
+  $property-slideshowButtonText-color: $accent !default;
+
+  $property-contactUsNumber-color: $black !default;
+  $property-contactUsBackground-color: $action !default;
+  $property-contactUsText-color: white !default;
+
+  $property-mortgageCalculatorHeader-color: $black !default;
+  $property-mortgageCalculatorButtonBackground-color: $action !default;
+
+
+
+
+//
+// Footer
+
+
+// Primary Footer
+  $primaryFooter-background-color: $accent !default;
+  $primaryFooter-link-color: $white !default;
+  $primaryFooter-topBorder-color: darken($primaryFooter-background-color, 3) !default;
+
+
+// Secondary Footer
+  $secondaryFooter-background-color: darken($accent, 30) !default;
+  $secondaryFooter-divider-color: darken($secondaryFooter-background-color, 20) !default;
+  $secondaryFooter-text-color: $white !default;
+  $secondaryFooter-link-color: $secondaryFooter-text-color !default;
+  $secondaryFooter-linkHover-color: lighten($accent, 30) !default;
+  $secondaryFooter-topBorder-color: darken($primaryFooter-background-color, 10) !default;
+
+// Real Geeks Footer ($rgFooter-text-color is not exposed to the user)
+  $rgFooter-background-color: darken($black, 10) !default;
+  $rgFooter-text-color: if(lightness($rgFooter-background-color) < 50, white, black) !default;
+
+
+// Solution for valid SASS?
+  $accent: $bodyContent-link-color !default;
+
+// Molly Vars
+$body-sideBackground-color: $secondaryFooter-background-color !default;
+
+

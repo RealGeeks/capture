@@ -1,0 +1,32 @@
+@import 'color-library';
+
+$daracc: #064089;
+$accent: #1965B0;
+$muted-accent: #828282;
+
+$navigation-background-color: $white;
+
+$navigation-link-color: $daracc;
+
+$landscapeSearch-searchButtonBackground-color: $daracc;
+$landscapeSearch-advancedSearchLink-color: $mute-blue;
+
+$bodyContent-header-color: darken($daracc, 6);
+
+$searchResults-subBarCallToActionLink-color: $accent;
+$searchResults-informationLink-color: $accent;
+
+$property-mortgageCalculatorButtonBackground-color: $black;
+
+$primaryFooter-background-color: #EAE9E7;
+$primaryFooter-link-color: $black;
+
+$secondaryFooter-background-color: white; 
+$secondaryFooter-text-color: $black;
+$secondaryFooter-link-color: $daracc;
+$secondaryFooter-topBorder-color: darken($primaryFooter-background-color, 3); 
+
+$rgFooter-background-color: $primaryFooter-background-color;
+$rgFooter-text-color: $black;
+
+@import 'var-lib';
