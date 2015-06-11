@@ -34,7 +34,7 @@ ul {
   list-style: none; }
 
 li {
-  dislpay: inline;
+  display: inline;
   height: 7px;
   width: 18px;
   background: #637589;
@@ -43,7 +43,7 @@ li {
 
 .search {
   padding: 20px;
-  background: url("img/picture.png") center/20% no-repeat #eaeaea;
+  background: url("img/picture.png") 0 -40px/100% no-repeat #eaeaea;
   border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc; }
@@ -58,7 +58,7 @@ li {
   position: relative;
   height: 65px;
   width: 90px;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid #dfdfdf;
   border-radius: 4px; }
 
@@ -112,7 +112,7 @@ li {
   margin-right: 5px;
   margin-bottom: 5px;
   background: #ddd;
-  height: 5px; }
+  height: 4px; }
 
 .body-content .a {
   background: #14A2F6; }
@@ -145,7 +145,7 @@ li {
 
 .sidebar p {
   background: #14A2F6;
-  height: 5px;
+  height: 4px;
   width: 35%;
   display: inline-block;
   margin-bottom: 5px;

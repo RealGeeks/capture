@@ -9,7 +9,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   overflow: hidden;
-  background: #CCFCA8; }
+  background: black; }
 
 .body {
   width: 80%;
@@ -43,7 +43,7 @@ li {
   display: inline;
   height: 7px;
   width: 18px;
-  background: #666666;
+  background: #286e8d;
   float: right;
   margin-left: 6px; }
 
@@ -51,7 +51,7 @@ li {
   margin: auto;
   width: 85%;
   padding: 20px 10px;
-  background: url("img/picture.png") center/20% no-repeat #eaeaea;
+  background: url("img/picture.png") 0 -20px/100% no-repeat #eaeaea;
   border-radius: 4px; }
 
 .search h1 {
@@ -74,7 +74,7 @@ li {
   position: absolute;
   bottom: 6px;
   left: 6px;
-  background: #0DAC02;
+  background: #175977;
   border-radius: 2px; }
 
 .user-content {
@@ -116,10 +116,10 @@ li {
   margin-right: 5px;
   margin-bottom: 5px;
   background: #ddd;
-  height: 5px; }
+  height: 4px; }
 
 .body-content .a {
-  background: #097a01; }
+  background: #286e8d; }
 
 .body-content p:nth-child(odd) {
   width: 20px; }
@@ -148,11 +148,88 @@ li {
   background: #38424E; }
 
 .sidebar p {
-  background: #097a01;
-  height: 5px;
+  background: #286e8d;
+  height: 4px;
   width: 35%;
   display: inline-block;
   margin-bottom: 5px;
   margin-right: 10px; }
+
+footer {
+  border-top: 1px solid #f1e7bf;
+  height: 55px;
+  width: 215px;
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+  font-size: 0; }
+
+footer section {
+  display: inline-block;
+  height: 100%;
+  width: 33.3%; }
+
+footer section:nth-child(even) {
+  position: relative; }
+
+footer section:nth-child(even):after,
+footer section:nth-child(even):before {
+  content: '';
+  display: block;
+  height: 60%;
+  width: 1px;
+  background: #ddd;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+footer section:nth-child(even):after {
+  right: 0; }
+
+footer section:nth-child(even):before {
+  left: 0; }
+
+footer h1 {
+  width: 34px;
+  height: 8px;
+  position: relative;
+  top: 6px;
+  background: #38424E; }
+
+footer section:not(:first-child) h1 {
+  left: 6px; }
+
+footer .links {
+  background: yellow;
+  position: relative;
+  top: 12px; }
+
+footer section:nth-child(even) .links {
+  left: 6px; }
+
+footer .links p {
+  width: 20px;
+  height: 4px;
+  background: #286e8d;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 5px; }
+
+footer .contact {
+  position: relative;
+  top: 12px;
+  left: 6px; }
+
+footer .contact p {
+  width: 50px;
+  height: 4px;
+  background: #ddd;
+  margin-bottom: 4px; }
+
+footer .contact p:nth-child(even) {
+  width: 40px; }
+
+footer .contact p:last-child {
+  width: 30px; }
 
 /*# sourceMappingURL=molly.css.map */
