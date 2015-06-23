@@ -3,5 +3,5 @@
 .sass-cache
 *.map
 *.swp
-miranda-variations/
-molly-variations/
+miranda-variations/*.png
+molly-variations/*.png
